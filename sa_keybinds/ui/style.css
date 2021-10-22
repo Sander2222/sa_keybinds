@@ -17,8 +17,7 @@ body {
   width: 1000px;
   height: 635px;
   background-color: rgba(0, 0, 0, 0.8);
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-radius: 15px;
   color: rgb(255, 255, 255);
 }
 
