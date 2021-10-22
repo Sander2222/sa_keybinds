@@ -1,0 +1,87 @@
+@font-face {
+   font-family: font;
+   src: url(font/LEMONMILK-Regular.otf);
+}
+
+body {
+  display: none;
+  font-family: font;
+}
+
+#main_box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 635px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: rgb(255, 255, 255);
+}
+
+#header_box {
+  height: 100px;
+  width: 900px;
+  margin: auto;
+  margin-top: 4%;
+  top: 100%;
+  left: 100%
+  color: red;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #1D1D1D;
+}
+
+#header_text {
+  display: flex;
+  justify-content: center;
+  text-shadow: 3px 5px 2px rgb(8, 8, 8, 0.76);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#button_box {
+  height: 410px;
+  width: 900px;
+  margin: auto;
+  margin-top: 4%;
+  top: 100%;
+  left: 100%
+  color: red;
+  text-align: center;
+  overflow: auto;
+  border-radius: 15px;
+  background-color: #1D1D1D;
+}
+
+#keybind {
+      background-color: #131313;
+      width: 50%;
+      margin-top: 2%;
+      height: 7%;
+      font-size: 25px;
+      margin-left: 3%;
+      border-radius: 15px;
+      border-bottom: 5px solid #4B0041;
+}
+
+
+::-webkit-scrollbar{
+
+    position: absolute;
+    width: 10px;
+    top: 10px;
+    height: 5px;
+    background-color: #4B0041;
+    border-radius: 5px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #34002D;
+}
