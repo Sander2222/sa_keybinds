@@ -22,7 +22,7 @@ body {
 }
 
 #header_box {
-  height: 100px;
+  height: 70px;
   width: 900px;
   margin: auto;
   margin-top: 4%;
@@ -35,11 +35,10 @@ body {
 }
 
 #header_text {
-  display: flex;
   justify-content: center;
   text-shadow: 3px 5px 2px rgb(8, 8, 8, 0.76);
   font-size: 30px;
-  margin-bottom: 20px;
+  padding-top: 13px;
 }
 
 #button_box {
